@@ -1,0 +1,79 @@
+*{
+    
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: "montserrat";
+    bottom:0;
+    
+}
+.contact-section{
+    background:#313840;
+    padding: 80px 0;
+    text-align : center;
+}
+
+.inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.contact-section h1{
+    font-size:20px;
+    color:antiquewhite;
+    margin-bottom:40px;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-weight:400;
+}
+.name,.email,.message{
+    background:none;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid;
+    color:antiquewhite;
+    padding: 10px 6px;
+    font-size:14px;
+    margin-bottom:40px;
+
+
+}
+
+.name{
+    float: left;
+    width:270px;
+}
+.email{
+    float: right;
+    width: 270px;
+}
+
+.message{
+    min-width:100%;
+    max-width:100%;
+    border: 1px solid;
+    
+}
+
+.contact-section button{
+    background : none;
+    color : antiquewhite;
+    border: 1px solid antiquewhite;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size : 14px;
+    transition: 0.4s linear;
+}
+
+.contact-section button:hover{
+    background: #888;
+    color: #fff;
+}
+
+@media screen and (max-width:600px){
+    .name,.email{
+        width:100%;
+    }
+}
