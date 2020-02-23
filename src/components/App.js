@@ -9,8 +9,9 @@ class App extends React.Component {
     return (
       <div className="content">
          
-        <ContactSection />
-        <ContactInfo />
+        <Menubar left1="About" left2="Projects" right2="Manifesto" right1="Contact" />
+        <ContactSection/>
+        <ContactInfo/>
         
       </div>
     );
